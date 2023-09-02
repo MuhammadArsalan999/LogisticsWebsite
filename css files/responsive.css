@@ -1,0 +1,2967 @@
+@media (max-width: 1600px){
+
+    /**************************************************** header styling ****************************************************/
+
+    .header .header-content .header-content-box .header-first-box{
+        padding: 4em 4em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 3.2rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 5em 6em 3em 4em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.8rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.6rem;
+    }
+
+    /************************************************************************************************************************/
+
+
+        
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 30%;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 4rem;
+        line-height: 46px;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 35%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+
+    /************************************************************************************************************************/
+
+}
+
+
+
+@media (max-width: 1500px){
+    
+    /**************************************************** header styling ****************************************************/
+
+    .header .header-content .header-content-box .header-first-box{
+        padding: 4em 4em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 3rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 5em 5em 3em 3em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.8rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.6rem;
+    }
+
+    /************************************************************************************************************************/
+
+
+    
+    /********************************************* our services section styling *********************************************/
+
+    .our-services{
+        width: 90%;
+    }
+
+    .our-services .some-services .service .service-head .service-heading{
+        font-size: 2.7rem;
+    }
+
+    .our-services .some-services .service .service-discaription p{
+        font-size: 1.9rem;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+    
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 30%;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 4rem;
+        line-height: 46px;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 35%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+    
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 3.6rem;
+        color: #fff;
+        padding-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 36px;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -9%;
+        left: 0;
+        width: 100%;
+        height: 2%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box:hover::after{
+        top: 15%;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+}
+
+
+
+@media (max-width: 1400px){
+
+    /**************************************************** header styling ****************************************************/
+
+    .header #navbar .company-logo{
+        width: 13.6%;
+        height: 150%;
+    }
+
+    /************************************************************************************************************************/
+
+
+    
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.9rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    /************************************************************************************************************************/
+
+
+        
+
+    /**************************************************** footer styling ****************************************************/
+
+    .footer .footer-area .footer-02{
+        width: 28%;
+    }
+
+    /************************************************************************************************************************/
+
+}
+
+
+
+@media (max-width: 1300px){
+
+    /**************************************************** header styling ****************************************************/
+
+    .header #navbar{
+        height: 7.4em;
+    }
+
+    .header #navbar .company-logo{
+        width: 13.6%;
+        height: 140%;
+    }
+
+    .header #navbar .navigation{
+        width: 65%;
+    }
+
+    .header #navbar .navigation .navbar-items{
+        justify-content: center;
+    }
+
+    .header #navbar .navigation .navbar-items .navbar-item{
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 1.4em;
+        padding: 0.6em 0;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.8rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 4em 5em 3em 3em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.6rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 32%;
+        margin-right: 4em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 3.6rem;
+        line-height: 46px;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 5em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 30%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+    /************************************************************************************************************************/
+
+    
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 3.2rem;
+        color: #fff;
+        padding-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 34px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -9%;
+        left: 0;
+        width: 100%;
+        height: 2%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box:hover::after{
+        top: 14%;
+    }
+
+
+    /************************************************************************************************************************/
+
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container{
+        padding: 5em 0;
+    }
+    
+    .quote-section .quote-section-container .quote-section-first-content{
+        width: 28%;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content h1{
+        font-size: 4rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content{
+        width: 65%;
+    }
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.9rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    /************************************************************************************************************************/
+
+    
+
+    /**************************************************** footer styling ****************************************************/
+
+    .footer .footer-area .footer-02{
+        width: 32%;
+    }
+
+    /************************************************************************************************************************/
+
+}
+
+
+
+
+@media (max-width: 1200px){
+
+    html{
+        font-size: 58%;
+    }
+
+}
+
+
+
+
+@media (max-width: 1100px){
+
+    html{
+        font-size: 54%;
+    }
+
+    /**************************************************** header styling ****************************************************/
+
+    .header{
+        height: 85em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 4em 5em 3em 3em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.6rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+    
+    /************************************************************************************************************************/
+
+    
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container{
+        padding: 6em 0 8em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 30%;
+        margin-right: 4em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 3.4rem;
+        line-height: 36px;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 3em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 30%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 3rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 24px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -8%;
+        left: 0;
+        width: 100%;
+        height: 2%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box:hover::after{
+        top: 12%;
+    }
+
+    /************************************************************************************************************************/
+    
+}
+
+
+
+
+@media (max-width: 1000px){
+
+    html{
+        font-size: 50%;
+    }
+
+    /**************************************************** header styling ****************************************************/
+
+    .header #navbar .company-logo{
+        width: 22%;
+        height: 170%;
+    }
+
+    .header #navbar .company-logo{
+        order: 1;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 50%;
+    }
+
+    .header #navbar .navigation{
+        width: 5%;
+        order: 3;
+        margin-right: 2.4em;
+    }
+
+    .header #navbar .navigation .burger-lines{
+        display: block;
+        width: 100%;
+        height: 5em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .header #navbar .navigation .burger-lines input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 1001;
+    }
+
+    .header #navbar .navigation .burger-lines .burger-line{
+        width: 100%;
+        height: 15%;
+        border-radius: 50px;
+        background-color: black;
+    }
+
+    .header #navbar .navigation .burger-lines .burger-line-1{
+        transform-origin: left;
+        transition: transform 200ms ease-in-out;
+    }
+
+    .header #navbar .navigation .burger-lines .burger-line-2{
+        transform-origin: left;
+        transition: transform 200ms 50ms ease-in-out;
+    }
+
+    .header #navbar .navigation .burger-lines .burger-line-3{
+        transform-origin: left;
+        transition: transform 200ms 100ms ease-in-out;
+    }
+
+    .header #navbar .navigation .burger-lines .burger-line-4{
+        position: absolute;
+        top: 42%;
+        transform: scaleX(0);
+        transform: rotate(0);
+        transition: transform 200ms 50ms ease-in-out;
+        opacity: 0;
+    }
+
+    .header #navbar .navigation .burger-lines .burger-line-5{
+        position: absolute;
+        top: 42%;
+        /* transform: scaleX(0); */
+        transform: rotate(0);
+        transition: transform 200ms 50ms ease-in-out;
+        opacity: 0;
+    }
+
+    .header #navbar .navigation .burger-lines input:checked ~ .burger-line-1{
+        transform: scaleX(0);
+    }
+
+    .header #navbar .navigation .burger-lines input:checked ~ .burger-line-2{
+        transform: scaleX(0);
+    }
+
+    .header #navbar .navigation .burger-lines input:checked ~ .burger-line-3{
+        transform: scaleX(0);
+    }
+
+    .header #navbar .navigation .burger-lines input:checked ~ .burger-line-4{
+        transform: rotate(45deg);
+        opacity: 1;
+        /* transform: scaleX(1); */
+    }
+
+    .header #navbar .navigation .burger-lines input:checked ~ .burger-line-5{
+        transform: rotate(-45deg);
+        opacity: 1;
+        /* transform: scaleX(1); */
+    }
+
+    .header #navbar .navigation .navbar-items{
+        position: absolute;
+        top: 0;
+        left: 0%;
+        transform: translate(-120%,0%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.952);
+        z-index: 1010;
+        padding-bottom: 40%;
+        transition: transform 300ms ease-in-out;
+    }
+
+    .header #navbar .navigation .navbar-items a{
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 20%;
+        margin-top: 16%;
+        padding: 0.6em 0;
+        /* width: 50%; */
+        /* height: 1%; */
+    }
+
+    .header #navbar .navigation .navbar-items a .navbar-item{
+        font-size: 2rem;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-1{
+        position: relative;
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 40%;
+        margin-left: 30%;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1{
+        top: 0%;
+        left: 200%;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1 .other-services-items-1 a{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1 .other-services-items-1 .other-services-item-1{
+        font-size: 2rem;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-2{
+        position: relative;
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 40%;
+        margin-left: 30%;
+    }
+
+    
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2{
+        top: 0%;
+        left: 200%;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2 .other-services-items-2 a{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2 .other-services-items-2 .other-services-item-2{
+        font-size: 2rem;
+    }
+
+    /************************************************************************************************************************/
+
+
+    
+    /********************************************* our services section styling *********************************************/
+
+    .our-services{
+        width: 90%;
+    }
+
+    .our-services .some-services .service .service-head .service-heading{
+        font-size: 2.7rem;
+    }
+
+    .our-services .some-services .service .service-discaription p{
+        font-size: 1.9rem;
+    }
+
+    .our-services .some-services .service .service-img{
+        margin-bottom: 0.6em;
+    }
+
+    .our-services .some-services .service .service-img img{
+        height: 25em;
+    }
+
+    /************************************************************************************************************************/
+
+
+
+    
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container{
+        padding: 6em 0 8em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 28%;
+        margin-right: 3em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 2.8rem;
+        line-height: 30px;
+        margin-bottom: 0.2em;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 3em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 36%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+    .second-section .second-section-png img{
+        width: 28em;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 900px){
+
+    html{
+        font-size: 48%;
+    }
+
+    /**************************************************** header styling ****************************************************/
+
+    .header{
+        height: 85em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 4em 5em 3em 3em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.6rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 48%;
+    }
+
+    
+    /************************************************************************************************************************/
+
+
+    
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area .third-section-content{
+        background-color: rgb(50, 50, 255);
+        width: 58%;
+        padding: 3em 5em 1em 5em;
+        /* box-shadow: inset 0px 11px 8px -10px #333,
+        inset 0px -11px 8px -10px #333; */
+    }
+    
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 2.8rem;
+        margin-bottom: 0.6em;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 20px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 0;
+        width: 100%;
+        height: 1.4%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box:hover::after{
+        top: 12%;
+        height: 1.4%;
+    }
+
+    /************************************************************************************************************************/
+   
+    
+    
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container .quote-section-first-content{
+        width: 28%;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content h1{
+        font-size: 3.4rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content a{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content{
+        width: 68%;
+    }
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    /************************************************************************************************************************/
+
+}
+
+
+
+
+
+@media (max-width: 800px){
+
+    html{
+        font-size: 48%;
+    }
+
+    /**************************************************** header styling ****************************************************/
+
+    .header{
+        height: 80em;
+    }
+
+    .header .header-content .header-content-box{
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: translate(-30%,-60%);
+        display: flex;
+    }
+
+    .header .header-content .header-content-box .header-first-box{
+        width: 45%;
+        background-color: rgb(50, 50, 255);
+        color: #fff;
+        padding: 6em 5em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.2rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 4em 5em 3em 3em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.6rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        background-color: #fff;
+        width: 65%;
+        padding: 3em 5em 4em 3em;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 45%;
+    }
+
+    
+    /************************************************************************************************************************/
+
+
+    
+
+    
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container{
+        padding: 6em 0 8em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 30%;
+        margin-right: 3em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 2.4rem;
+        line-height: 24px;
+        margin-bottom: 0.2em;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 3em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 36%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content a{
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0.8em;
+        text-transform: capitalize;
+        transform: transform 300ms ease-in-out;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+    .second-section .second-section-png img{
+        width: 24em;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+    
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area .third-section-content{
+        background-color: rgb(50, 50, 255);
+        width: 58%;
+        padding: 2em 5em 1em 5em;
+        /* box-shadow: inset 0px 11px 8px -10px #333,
+        inset 0px -11px 8px -10px #333; */
+    }
+    
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 2.4rem;
+        margin-bottom: 0.6em;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 20px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 0;
+        width: 100%;
+        height: 1.4%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box:hover::after{
+        top: -5%;
+    }
+
+    /************************************************************************************************************************/
+   
+    
+
+    
+    /**************************************************** footer styling ****************************************************/
+
+    .footer .footer-area .footer-01{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .footer-area .footer-01 .footer-01-logo{
+        width: 30%;
+        margin-top: 2em;
+    }
+
+    .footer .footer-area .footer-02{
+        width: 30%;
+        margin-top: 2em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: 0.8em;
+        cursor: pointer;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a{
+        width: 32%;
+    }
+    .footer .footer-area .footer-02 .social-media-links a:first-child{
+        margin-bottom: 2em;
+    }
+
+    /************************************************************************************************************************/
+    
+
+}
+
+
+
+
+
+@media (max-width: 700px){
+
+    /**************************************************** header styling ****************************************************/
+
+    .header #navbar .company-logo{
+        width: 26%;
+        height: 170%;
+    }
+
+    .header #navbar div.social-media-links{
+        order: 2;
+        margin-left: 34%;
+    }
+
+    .header #navbar .navigation{
+        width: 7%;
+        order: 3;
+        margin-right: 2.4em;
+    }
+
+    .header .header-content .header-content-box{
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: translate(-30%,-60%);
+        display: flex;
+        width: 80%;
+    }
+
+    .header .header-content .header-content-box .header-first-box{
+        width: 42%;
+        background-color: rgb(50, 50, 255);
+        color: #fff;
+        padding: 4em 4em 4em 2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 4em 3em 3em 2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box .header-second-box-icon{
+        width: 8em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.6rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        background-color: #fff;
+        width: 65%;
+        padding: 3em 5em 4em 3em;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 45%;
+    }
+
+
+    .header #navbar .navigation .navbar-items a{
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 12%;
+        margin-top: 18%;
+        padding: 0.6em 0;
+        /* width: 50%; */
+        /* height: 1%; */
+    }
+
+    .header #navbar .navigation .navbar-items a .navbar-item{
+        font-size: 2rem;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-1{
+        position: relative;
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 40%;
+        margin-left: 30%;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1{
+        top: 0%;
+        left: 200%;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1 .other-services-items-1 a{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1 .other-services-items-1 .other-services-item-1{
+        font-size: 2rem;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-2{
+        position: relative;
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 40%;
+        margin-left: 30%;
+    }
+
+    
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2{
+        top: 0%;
+        left: 200%;
+    }
+
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2 .other-services-items-2 a{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /************************************************************************************************************************/
+
+    
+
+    
+    /********************************************* our services section styling *********************************************/
+
+    .our-services{
+        width: 90%;
+        margin: 10em auto 6em auto;
+    }
+
+    .our-services .some-services .service{
+        width: 48%;
+    }
+
+    .our-services .some-services .service .service-head .service-heading{
+        font-size: 2.7rem;
+    }
+
+    .our-services .some-services .service .service-discaription p{
+        font-size: 1.9rem;
+    }
+
+    .our-services .some-services .service .service-img{
+        margin-bottom: 0.6em;
+    }
+
+    .our-services .some-services .service .service-img img{
+        height: 25em;
+    }
+
+    /************************************************************************************************************************/
+
+
+
+    
+    
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container{
+        padding: 6em 0 8em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 36%;
+        margin-right: 3em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 2.4rem;
+        line-height: 24px;
+        margin-bottom: 0.2em;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 3em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 50%;
+        z-index: 100;
+        opacity: 0.8;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content a{
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0.8em;
+        text-transform: capitalize;
+        transform: transform 300ms ease-in-out;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+    .second-section .second-section-png img{
+        width: 24em;
+        
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+       
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .third-section .third-section-area .third-section-img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .third-section .third-section-area .third-section-img img{
+        width: 100%;
+        object-fit: scale-down;
+    }
+
+    .third-section .third-section-area .third-section-content{
+        background-color: rgb(50, 50, 255);
+        width: 100%;
+        padding: 2em 3em 1em 3em;
+        /* box-shadow: inset 0px 11px 8px -10px #333,
+        inset 0px -11px 8px -10px #333; */
+    }
+    
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 2.4rem;
+        margin-bottom: 0.6em;
+        text-align: center;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 20px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 0;
+        width: 100%;
+        height: 1.4%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    /************************************************************************************************************************/
+   
+        
+    
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 6em 0;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content h1{
+        font-size: 3.4rem;
+        margin-bottom: 0.3em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content p{
+        margin-bottom: 2.4em;
+        padding-right: 2em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content a{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    /************************************************************************************************************************/
+
+
+}
+
+
+
+
+
+@media (max-width: 600px){
+
+    html{
+        font-size: 48%;
+    }
+
+
+
+    /**************************************************** header styling ****************************************************/
+
+    .header #navbar .company-logo{
+        width: 26%;
+        height: 170%;
+    }
+
+    .header #navbar div.social-media-links{
+        order: 2;
+        margin-left: 28%;
+    }
+
+    .header #navbar .navigation{
+        width: 7%;
+        order: 3;
+        margin-right: 2.4em;
+    }
+
+    .header .header-content .header-content-box{
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-40%,-60%);
+        display: flex;
+        width: 90%;
+    }
+
+    .header .header-content .header-content-box .header-first-box{
+        width: 42%;
+        background-color: rgb(50, 50, 255);
+        color: #fff;
+        padding: 4em 4em 4em 2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        padding: 4em 3em 3em 2em;
+    }
+    
+
+    .header .header-content .header-content-box .header-second-box .header-second-box-icon{
+        width: 8em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.5rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+    .header .header-content .header-content-box .header-second-box{
+        background-color: #fff;
+        width: 70%;
+        padding: 3em 5em 4em 3em;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 45%;
+    }
+
+
+
+    /************************************************************************************************************************/
+
+
+
+    
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container{
+        padding: 6em 0 8em 0;
+        flex-wrap: wrap;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 60%;
+        margin-right: 3em;
+        margin-bottom: 6em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 2.4rem;
+        line-height: 24px;
+        margin-bottom: 0.2em;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 3em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 90%;
+        z-index: 100;
+        opacity: 1;
+        height: 55%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content a{
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0.8em;
+        text-transform: capitalize;
+        transform: transform 300ms ease-in-out;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+    .second-section .second-section-png{
+        position: absolute;
+        top: 26%;
+        right: 4%;
+        transform: translate(0,-42%);
+    }
+
+    .second-section .second-section-png img{
+        width: 20em;
+        
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .third-section .third-section-area .third-section-img{
+        width: 100%;
+        margin: 0 12%;
+    }
+
+    .third-section .third-section-area .third-section-img img{
+        width: 100%;
+        object-fit: scale-down;
+    }
+
+    .third-section .third-section-area .third-section-content{
+        background-color: rgb(50, 50, 255);
+        width: 100%;
+        padding: 2em 3em 1em 3em;
+        /* box-shadow: inset 0px 11px 8px -10px #333,
+        inset 0px -11px 8px -10px #333; */
+    }
+    
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 2.4rem;
+        margin-bottom: 0.6em;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 20px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 0;
+        width: 100%;
+        height: 1.4%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    /************************************************************************************************************************/
+   
+        
+          
+    
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 6em 0;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content h1{
+        font-size: 3.4rem;
+        margin-bottom: 0.3em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content p{
+        margin-bottom: 2.4em;
+        padding-right: 2em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content a{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.7rem;
+        padding: 0.2em 0.3em 0.2em 0;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label i{
+        font-size: 2rem;
+    }
+    
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-second-area label:nth-child(2){
+        width: 36%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area label{
+        width: 14%;
+    }
+
+    /************************************************************************************************************************/
+
+
+    
+    
+    /**************************************************** footer styling ****************************************************/
+
+    .footer{
+        margin-top: 12em;
+        padding: 2em 0 1.6em 0;
+    }
+
+    .footer .footer-area .footer-01{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+    }
+
+    .footer .footer-area .footer-01 .footer-01-logo{
+        width: 50%;
+        margin-top: 2em;
+    }
+
+    
+    .footer .footer-area .footer-01 .footer-01-content{
+        width: 100%;
+        align-self: center;
+    }
+
+
+    .footer .footer-area .footer-02{
+        width: 40%;
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a{
+        width: 32%;
+    }
+    .footer .footer-area .footer-02 .social-media-links a:first-child{
+        margin-bottom: 2em;
+    }
+
+    /************************************************************************************************************************/
+    
+
+}
+
+
+
+
+@media (max-width: 500px){
+
+    html{
+        font-size: 46%;
+    }
+
+
+
+    /**************************************************** header styling ****************************************************/
+
+    .header #navbar .company-logo{
+        width: 28%;
+        height: 170%;
+    }
+
+    .header #navbar div.social-media-links{
+        order: 2;
+        margin-left: 16%;
+    }
+
+    .header #navbar .navigation{
+        width: 8%;
+        order: 3;
+        margin-right: 2.4em;
+    }
+
+    .header .header-content .header-content-box{
+        position: absolute;
+        top: 65%;
+        left: 40%;
+        transform: translate(-40%,-65%);
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 80%;
+    }
+
+    .header .header-content .header-content-box .header-first-box{
+        width: 100%;
+        background-color: rgb(50, 50, 255);
+        color: #fff;
+        padding: 3em 2em 2em 2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn{
+        margin: 5em 0 2em 0;
+    }    
+
+    .header .header-content .header-content-box .header-second-box{
+        width: 100%;
+        padding: 2em 3em 3em 2em;
+        margin: 0;
+    }
+    
+
+    .header .header-content .header-content-box .header-second-box .header-second-box-icon{
+        width: 8em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.5rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 45%;
+    }
+
+    .header #navbar .navigation .navbar-items{
+        width: 45%;
+    }
+
+    .header #navbar .navigation .navbar-items a{
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 0%;
+        margin-top: 10%;
+        padding: 0.6em 0;
+        /* width: 50%; */
+        /* height: 1%; */
+    }
+
+    
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1{
+        top: 0%;
+        left: 160%;
+    }
+    
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2{
+        top: 0%;
+        left: 180%;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+
+    
+    /********************************************* our services section styling *********************************************/
+
+    .our-services{
+        width: 90%;
+        margin: 8em auto 6em auto;
+    }
+
+    .our-services h1:first-child{
+        color: #011F5B;
+        text-align: center;
+        font-size: 4.4rem;
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+
+    .our-services .some-services .service{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .our-services .some-services .service .service-head .service-heading{
+        font-size: 2.7rem;
+    }
+
+    .our-services .some-services .service .service-discaription p{
+        font-size: 1.9rem;
+    }
+
+    .our-services .some-services .service .service-img{
+        margin-bottom: 0.6em;
+    }
+
+    .our-services .some-services .service .service-img img{
+        height: 25em;
+    }
+
+    /************************************************************************************************************************/
+
+
+
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container{
+        padding: 6em 0 5em 0;
+        flex-wrap: wrap;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 60%;
+        margin-right: 3em;
+        margin-bottom: 6em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 2.4rem;
+        line-height: 24px;
+        margin-bottom: 0.2em;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 3em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 90%;
+        z-index: 100;
+        opacity: 1;
+        /* height: 48%; */
+        height: auto;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box:first-child{
+        margin-bottom: 2em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content a{
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0.8em;
+        text-transform: capitalize;
+        transform: transform 300ms ease-in-out;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+    .second-section .second-section-png{
+        position: absolute;
+        top: 26%;
+        right: 4%;
+        transform: translate(0,-42%);
+    }
+
+    .second-section .second-section-png img{
+        width: 20em;
+        
+    }
+
+
+    /************************************************************************************************************************/
+
+
+    
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .third-section .third-section-area .third-section-img{
+        width: 100%;
+        margin: 0 12%;
+    }
+
+    .third-section .third-section-area .third-section-img img{
+        width: 100%;
+        object-fit: scale-down;
+    }
+
+    .third-section .third-section-area .third-section-content{
+        background-color: rgb(50, 50, 255);
+        width: 100%;
+        padding: 2em 3em 1em 3em;
+        /* box-shadow: inset 0px 11px 8px -10px #333,
+        inset 0px -11px 8px -10px #333; */
+    }
+    
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 2.4rem;
+        margin-bottom: 0.6em;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 20px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 0;
+        width: 100%;
+        height: 1.4%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+    /************************************************************************************************************************/
+   
+        
+          
+    
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 6em 0;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content h1{
+        font-size: 3.4rem;
+        margin-bottom: 0.3em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content p{
+        margin-bottom: 2.4em;
+        padding-right: 2em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content a{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form{
+        background-color: #fff;
+        padding: 2em 2em 3em 2em;
+        position: relative;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+    
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.7rem;
+        padding: 0.2em 0.3em 0.2em 0;
+        width: 48%;
+    }
+
+    /* .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label:last-child{
+        margin: 0 auto;
+    } */
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label i{
+        font-size: 2rem;
+    }
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-second-area label:nth-child(2){
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area label{
+        width: 28%;
+        margin: 1em auto;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+    
+
+    
+    /**************************************************** footer styling ****************************************************/
+
+    .footer{
+        margin-top: 6em;
+        padding: 2em 0 1.6em 0;
+    }
+
+    .footer .footer-area .footer-01{
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+    }
+
+    .footer .footer-area .footer-01 .footer-01-logo{
+        width: 60%;
+        margin-top: 2em;
+    }
+
+    
+    .footer .footer-area .footer-01 .footer-01-content{
+        width: 100%;
+        align-self: center;
+    }
+
+
+    .footer .footer-area .footer-02{
+        width: 45%;
+        margin-top: 0em;
+        margin-left: 2em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a{
+        width: 30%;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:first-child{
+        margin-bottom: 2em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:last-child{
+        margin: 0 auto;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:nth-last-child(2){
+        margin: 0 auto;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a i{
+        font-size: 1.8rem;
+    }
+    
+
+    /************************************************************************************************************************/
+    
+}
+
+
+
+
+@media (max-width: 400px){
+
+    html{
+        font-size: 46%;
+    }
+
+
+
+    /**************************************************** header styling ****************************************************/
+
+    .header #navbar .company-logo{
+        width: 34%;
+        height: 170%;
+    }
+
+    .header #navbar div.social-media-links{
+        order: 2;
+        margin-left: 4%;
+        display: none;
+    }
+
+    .header #navbar .navigation{
+        width: 10%;
+        order: 3;
+        margin-right: 2.4em;
+    }
+
+    .header .header-content .header-content-box{
+        position: absolute;
+        top: 65%;
+        left: 40%;
+        transform: translate(-40%,-65%);
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 80%;
+    }
+
+    .header .header-content .header-content-box .header-first-box{
+        width: 100%;
+        background-color: rgb(50, 50, 255);
+        color: #fff;
+        padding: 3em 2em 2em 2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn{
+        margin: 5em 0 2em 0;
+    }    
+
+    .header .header-content .header-content-box .header-second-box{
+        width: 100%;
+        padding: 2em 3em 3em 2em;
+        margin: 0;
+    }
+    
+
+    .header .header-content .header-content-box .header-second-box .header-second-box-icon{
+        width: 8em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.5rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 45%;
+    }
+
+    .header #navbar .social-media-links .specific-btn a{
+        padding: 0.6em 0.8em;
+    }
+
+    .header #navbar .navigation .navbar-items{
+        width: 55%;
+    }
+
+    .header #navbar .navigation .navbar-items a{
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 0%;
+        margin-top: 10%;
+        padding: 0.6em 0;
+        /* width: 50%; */
+        /* height: 1%; */
+    }
+
+    
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1{
+        top: 0%;
+        left: 160%;
+    }
+    
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2{
+        top: 0%;
+        left: 180%;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+
+
+      
+    /************************************************ second section styling ************************************************/
+
+    .second-section .second-section-content-container{
+        padding: 6em 0 5em 0;
+        flex-wrap: wrap;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01{
+        width: 60%;
+        margin-right: 3em;
+        margin-bottom: 6em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-01 h1{
+        font-size: 2.4rem;
+        line-height: 24px;
+        margin-bottom: 0.2em;
+    }
+    
+    .second-section .second-section-content-container .second-section-content-01 p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 3em;
+        margin-right: 5em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02{
+        width: 90%;
+        z-index: 100;
+        opacity: 1;
+        /* height: 48%; */
+        height: auto;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+        padding: 3em 3em 1em 0;
+        width: 104%;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box:first-child{
+        margin-bottom: 2em;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content a{
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0.8em;
+        text-transform: capitalize;
+        transform: transform 300ms ease-in-out;
+    }
+
+    .second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+        -webkit-line-clamp: 2;
+        font-size: 1.5rem;
+    }
+
+    .second-section .second-section-png{
+        position: absolute;
+        top: 34%;
+        right: 4%;
+        transform: translate(0,-42%);
+    }
+
+    .second-section .second-section-png img{
+        width: 18em;
+        
+    }
+
+
+    /************************************************************************************************************************/
+
+
+    /************************************************* third section styling ************************************************/
+
+    .third-section .third-section-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .third-section .third-section-area .third-section-img{
+        width: 100%;
+        margin: 0 12%;
+    }
+
+    .third-section .third-section-area .third-section-img img{
+        width: 100%;
+        object-fit: scale-down;
+    }
+
+    .third-section .third-section-area .third-section-content{
+        background-color: rgb(50, 50, 255);
+        width: 100%;
+        padding: 2em 3em 1em 3em;
+        /* box-shadow: inset 0px 11px 8px -10px #333,
+        inset 0px -11px 8px -10px #333; */
+    }
+    
+
+    .third-section .third-section-area .third-section-content h1{
+        font-size: 2.4rem;
+        margin-bottom: 0.6em;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+        line-height: 20px;
+        font-size: 1.8rem;
+    }
+
+    .third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: -4%;
+        left: 0;
+        width: 100%;
+        height: 1.2%;
+        background-color: #fff;
+        border-radius: 50px;
+        transition: top 300ms ease-in-out;
+    }
+
+
+
+    /************************************************************************************************************************/
+   
+
+      
+    
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 6em 0;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content h1{
+        font-size: 3.4rem;
+        margin-bottom: 0.3em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content p{
+        margin-bottom: 2.4em;
+        padding-right: 2em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content a{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form{
+        background-color: #fff;
+        padding: 2em 2em 3em 2em;
+        position: relative;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+    
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.7rem;
+        padding: 0.2em 0.3em 0.2em 0;
+        width: 58%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label:nth-child(2){
+        width: 42%;
+    }
+
+    /* .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label:last-child{
+        margin: 0 auto;
+    } */
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label i{
+        font-size: 2rem;
+    }
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-second-area label:nth-child(2){
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area label{
+        width: 28%;
+        margin: 1em auto;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+    
+    /**************************************************** footer styling ****************************************************/
+
+    .footer{
+        margin-top: 6em;
+        padding: 2em 0 1.6em 0;
+    }
+
+    .footer .footer-area .footer-01{
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+    }
+
+    .footer .footer-area .footer-01 .footer-01-logo{
+        width: 60%;
+        margin-top: 2em;
+    }
+
+    
+    .footer .footer-area .footer-01 .footer-01-content{
+        width: 100%;
+        align-self: center;
+    }
+
+
+    .footer .footer-area .footer-02{
+        width: 45%;
+        margin-top: 0em;
+        margin-left: 2em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a{
+        width: 40%;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:first-child{
+        margin-bottom: 1.6em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:last-child{
+        margin: 0 auto;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:nth-last-child(2){
+        margin: 0 0;
+        margin-bottom: 1.6em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a i{
+        font-size: 1.8rem;
+    }
+    
+
+    /************************************************************************************************************************/
+    
+}
+
+
+
+
+
+@media (max-width: 300px){
+
+    html{
+        font-size: 45%;
+    }
+
+
+    /**************************************************** header styling ****************************************************/
+
+    .header{
+        height: 85em;
+    }
+
+    .header #navbar .company-logo{
+        width: 40%;
+        height: 150%;
+    }
+
+    .header #navbar div.social-media-links{
+        order: 2;
+        margin-left: 4%;
+        display: none;
+    }
+
+    .header #navbar .navigation{
+        width: 10.5%;
+        order: 3;
+        margin-right: 2.4em;
+    }
+
+    .header .header-content .header-content-box{
+        position: absolute;
+        top: 65%;
+        left: 40%;
+        transform: translate(-40%,-65%);
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 80%;
+    }
+
+    .header .header-content .header-content-box .header-first-box{
+        width: 100%;
+        background-color: rgb(50, 50, 255);
+        color: #fff;
+        padding: 3em 2em 2em 2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box h1{
+        font-size: 2.4rem;
+        line-height: 1.2em;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn{
+        margin: 5em 0 2em 0;
+    }    
+
+    .header .header-content .header-content-box .header-second-box{
+        width: 100%;
+        padding: 2em 1em 3em 1em;
+        margin: 0;
+    }
+    
+
+    .header .header-content .header-content-box .header-second-box .header-second-box-icon{
+        width: 8em;
+    }
+
+    .header .header-content .header-content-box .header-second-box h2{
+        font-size: 1.4rem;
+    }
+
+    .header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+        font-size: 1.5rem;
+    }
+
+    .header #navbar .social-media-links{
+        order: 2;
+        margin-left: 45%;
+    }
+
+    .header #navbar .social-media-links .specific-btn a{
+        padding: 0.6em 0.8em;
+    }
+
+    .header #navbar .navigation .navbar-items{
+        width: 55%;
+    }
+
+    .header #navbar .navigation .navbar-items a{
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0 0%;
+        margin-top: 10%;
+        padding: 0.6em 0;
+        /* width: 50%; */
+        /* height: 1%; */
+    }
+
+    
+    .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1{
+        top: 0%;
+        left: 160%;
+    }
+    
+    .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2{
+        top: 0%;
+        left: 180%;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+
+      
+    
+    
+
+    /************************************************* quote section styling ************************************************/
+
+    .quote-section .quote-section-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 6em 0;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content h1{
+        font-size: 3.4rem;
+        margin-bottom: 0.3em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content p{
+        margin-bottom: 2.4em;
+        padding-right: 2em;
+    }
+
+    .quote-section .quote-section-container .quote-section-first-content a{
+        font-size: 1.8rem;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form{
+        background-color: #fff;
+        padding: 2em 2em 3em 2em;
+        position: relative;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+    
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+        font-size: 1.7rem;
+        padding: 0.2em 0.3em 0.2em 0;
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label:nth-child(2){
+        width: 100%;
+    }
+
+    /* .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label:last-child{
+        margin: 0 auto;
+    } */
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label i{
+        font-size: 2rem;
+    }
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-second-area label:nth-child(2){
+        width: 100%;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+        height: 2.2em;
+        font-size: 2rem;
+    }
+
+    
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area label{
+        width: 28%;
+        margin: 1em auto;
+    }
+
+
+    /************************************************************************************************************************/
+
+
+
+
+    
+    /**************************************************** footer styling ****************************************************/
+
+    .footer{
+        margin-top: 6em;
+        padding: 2em 0 1.6em 0;
+    }
+
+    .footer .footer-area .footer-01{
+        width: 58%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+    }
+
+    .footer .footer-area .footer-01 .footer-01-logo{
+        width: 80%;
+        margin-top: 2em;
+    }
+
+    
+    .footer .footer-area .footer-01 .footer-01-content{
+        width: 100%;
+        align-self: center;
+    }
+
+
+    .footer .footer-area .footer-02{
+        width: 40%;
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a{
+        width: 40%;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:first-child{
+        margin-bottom: 1.6em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:last-child{
+        margin: 0 auto;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a:nth-last-child(2){
+        margin: 0 0;
+        margin-bottom: 1.6em;
+    }
+
+    .footer .footer-area .footer-02 .social-media-links a i{
+        font-size: 1.8rem;
+    }
+    
+
+    /************************************************************************************************************************/
+    
+
+
+
+
+}

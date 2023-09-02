@@ -1,0 +1,1063 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/********************************************************* html elements styling ********************************************************/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;background-color: #fff;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*****************************************************************************************************************************************/
+
+
+
+/************************************************************ utility classes ************************************************************/
+
+.container{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.big-container{
+    max-width: 2000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.big-container-2{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+
+/*****************************************************************************************************************************************/
+
+
+
+
+/************************************************************ header styling ************************************************************/
+
+.header{
+    height: 90em;
+    width: 100%;
+}
+
+.header #navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    height: 8em;
+    z-index: 1000;
+    position: fixed;
+    border-bottom: 3px solid rgb(50, 50, 255);
+}
+
+.header #navbar .company-logo{
+    width: 13.6%;
+    height: 182%;
+    z-index: 1000;
+    transition: width 400ms ease-in-out,
+    height 400ms ease-in-out,
+    margin-right 400ms ease-in-out;
+}
+
+
+.header #navbar .company-logo img{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.header #navbar .navigation{
+    align-self: center;
+    width: 60%;
+    display: flex;
+}
+
+.header #navbar .navigation .burger-lines{
+    display: none;
+}
+
+.header #navbar .navigation .navbar-items{
+    display: flex;
+}
+
+.header #navbar .navigation .navbar-items .navbar-item{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 1.4em;
+    padding: 0.6em 0;
+}
+
+.header #navbar .navigation .navbar-items a{
+    color: #111;
+    transition: color 300ms ease-in-out;
+    position: relative;
+}
+
+.header #navbar .navigation .navbar-items i{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translate(0,-50%);
+}
+
+.header #navbar .navigation .navbar-items .o-s-h-1{
+    position: relative;
+    margin-right: 2em;
+}
+
+.header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 300ms ease-in-out;
+    z-index: 100;
+}
+
+.header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1 .other-services-items-1{
+    background-color: #fff;
+    border-top: 3px solid blue;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0.6em 1em;
+    width: 260px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+/* .header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1 .other-services-items-1 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid blue;
+
+} */
+
+.header #navbar .navigation .navbar-items .o-s-h-1 .other-services-1 .other-services-items-1 .other-services-item-1{
+    font-size: 1.6rem;
+}
+
+.header #navbar .navigation .navbar-items .o-s-h-2{
+    position: relative;
+    margin-right: 2em;
+}
+
+.header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 300ms ease-in-out;
+    z-index: 100;
+}
+
+.header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2 .other-services-items-2{
+    background-color: #fff;
+    border-top: 3px solid blue;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0.6em 1em;
+    width: 260px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+/* .header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2 .other-services-items-2 span{
+    position: absolute;
+    top: -6%;
+    left: 10%;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid blue;
+
+} */
+
+.header #navbar .navigation .navbar-items .o-s-h-2 .other-services-2 .other-services-items-2 .other-services-item-2{
+    font-size: 1.6rem;
+}
+
+.header #navbar .navigation .navbar-items a:hover{
+    color: blue;
+}
+.header #navbar .navigation .navbar-items .o-s-h-1:hover .other-services-1{
+    transform: scaleY(1);
+}
+
+.header #navbar .navigation .navbar-items .o-s-h-2:hover .other-services-2{
+    transform: scaleY(1);
+}
+
+.header #navbar .social-media-links{
+    align-self: center;
+}
+
+
+
+.header #navbar .social-media-links .specific-btn{
+    margin-left: 1em;
+    margin-right: 5em;
+}
+
+.header #navbar .social-media-links .specific-btn a{
+    padding: 0.8em 1.2em;
+    background-color: rgb(50, 50, 255);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+}
+
+.header #navbar .social-media-links .specific-btn a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms ease-in-out;
+}
+
+.header #navbar .social-media-links .specific-btn a:hover::after{
+    transform: scaleY(1);
+}
+
+.header .header-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header .header-content .header-img{
+    width: 100%;
+    height: 100%;
+}
+
+.header .header-content .header-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.header .header-content .header-content-box{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%,-60%);
+    display: flex;
+}
+
+.header .header-content .header-content-box .header-first-box{
+    width: 40%;
+    background-color: rgb(50, 50, 255);
+    color: #fff;
+    padding: 6em 5em;
+}
+.header .header-content .header-content-box .header-first-box h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.2em;
+    cursor: context-menu;
+}
+
+.header .header-content .header-content-box .header-first-box .header-first-box-btn{
+    margin: 5em 0 4em 0;
+}
+
+.header .header-content .header-content-box .header-first-box .header-first-box-btn p{
+    color: #fff;
+    font-size: 1.8rem;
+    border: 2px solid #fff;
+    padding: 1em 1.6em;
+    display: inline;
+    text-transform: capitalize;
+    position: relative;
+    -webkit-transition: color 500ms;
+    transition: color 500ms;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    cursor: context-menu;
+}
+
+.header .header-content .header-content-box .header-second-box{
+    background-color: #fff;
+    width: 60%;
+    padding: 10em 5em 4em 3em;
+}
+
+.header .header-content .header-content-box .header-second-box .header-second-box-icon{
+    width: 12em;
+    height: auto;
+    position: relative;
+    transition: transform 300ms ease-in-out;
+}
+
+.header .header-content .header-content-box .header-second-box .header-second-box-icon img{
+    width: 100%;
+    height: auto;
+}
+
+.header .header-content .header-content-box .header-second-box h2{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 0.5em;
+    cursor: context-menu;
+}
+
+.header .header-content .header-content-box .header-second-box span{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.header .header-content .header-content-box .header-second-box .header-second-box-icon::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: -30%;
+    width: 100%;
+    height: 18%;
+    transform: rotate(-45deg);
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 10;
+    transition: top 300ms ease-in-out,
+    left 300ms ease-in-out;
+}
+
+.header .header-content .header-content-box .header-second-box .header-second-box-icon:hover::after{
+    top: 50%;
+    left: 80%;
+}
+
+.header .header-content .header-content-box .header-second-box .header-second-box-icon:hover{
+    transform: scale(1.1);
+}
+
+.header .header-content .header-content-box .header-first-box .header-first-box-btn p::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    background: #fff;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+}
+
+.header .header-content .header-content-box .header-first-box .header-first-box-btn p:hover::before{
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.header .header-content .header-content-box .header-first-box .header-first-box-btn p:hover{
+    color: rgb(50, 50, 255);
+    text-shadow: 0 0 1px rgb(50, 50, 255);
+}
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+/***************************************************** our services section styling *****************************************************/
+
+.our-services{
+    width: 100%;
+    margin: 10em auto 10em auto;
+}
+
+.our-services h1:first-child{
+    color: #011F5B;
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.our-services .some-services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.our-services .some-services .service{
+    width: 32%;
+    margin-bottom: 4em;
+}
+
+.our-services .some-services .service .service-img{
+    width: 100%;
+    margin-bottom: 2.8em;
+    overflow: hidden;
+}
+
+.our-services .some-services .service .service-img img{
+    width: 100%;
+    height: 30em;
+    transition: transform 300ms ease-in-out;
+}
+
+.our-services .some-services .service .service-head .service-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 0.2em;
+    display: inline;
+    transition: color 200ms ease-in-out,
+    text-decoration 200ms ease-in-out;
+}
+
+.our-services .some-services .service .service-discaription{
+
+}
+
+.our-services .some-services .service .service-discaription p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(0, 36, 134);
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.our-services .some-services .service:hover .service-head .service-heading{
+    text-decoration: underline rgb(50, 50, 255);
+}
+
+.our-services .some-services .service .service-head .service-heading:hover{
+    text-decoration: underline rgb(50, 50, 255);
+    color: rgb(50, 50, 255);
+}
+
+.our-services .some-services .service .service-img img:hover{
+    transform: scale(1.1);
+}
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+/******************************************************** second section styling ********************************************************/
+
+.second-section{
+    background-color: #E6E6FA;
+    display: flex;
+    position: relative;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.second-section .second-section-content-container{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10em 0 8em 0;
+    display: flex;
+}
+
+.second-section .second-section-content-container .second-section-content{
+
+}
+
+.second-section .second-section-content-container .second-section-content-01{
+    width: 32%;
+    margin-right: 6em;
+}
+
+.second-section .second-section-content-container .second-section-content-01 h1{
+    font-size: 4.4rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0.5em;
+    line-height: 50px;
+}
+
+.second-section .second-section-content-container .second-section-content-01 p{
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 5.5em;
+    margin-right: 6em;
+}
+
+.second-section .second-section-content-container .second-section-content-01 a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 1.2em 1.8em;
+    background-color: rgb(50, 50, 255);
+    color: #fff;
+    position: relative;
+}
+
+
+.second-section .second-section-content-container .second-section-content-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box{
+    background-color: #fff;
+    display: flex;
+    padding: 3.4em 3em 1.4em 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 24%;
+    left: -1%;
+    width: 2%;
+    height: 30%;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box img{
+    width: 60px;
+    height: 40px;
+    color: rgb(50, 50, 255);
+    margin: 0 0.5em 0 0.8em;
+}
+
+
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content{
+
+}
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content a{
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+    text-transform: capitalize;
+    transform: transform 300ms ease-in-out;
+}
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content p{
+    font-size: 1.6rem;
+    margin-bottom: 0.8em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.second-section .second-section-png{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translate(0,-42%);
+}
+
+.second-section .second-section-png img{
+    width: 36em;
+}
+
+.second-section .second-section-content-container .second-section-content-01 a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 260ms ease-in-out;
+}
+
+.second-section .second-section-content-container .second-section-content-01 a:hover::after{
+    transform: scaleY(1);
+}
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box:hover{
+    box-shadow: 0 0 20px rgba(50, 50, 255, 0.2);
+}
+
+.second-section .second-section-content-container .second-section-content-02 .second-section-content-box .s-s-c-b-content a:hover{
+    color: rgb(50, 50, 255);
+}
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+/********************************************************* third section styling ********************************************************/
+
+.third-section{
+}
+
+.third-section .third-section-area{
+    display: flex;
+}
+
+.third-section .third-section-area .third-section-img{
+    width: 38%;
+    margin: 0 2% 0 2%;
+}
+
+.third-section .third-section-area .third-section-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.third-section .third-section-area .third-section-content{
+    background-color: rgb(50, 50, 255);
+    width: 58%;
+    padding: 4em 8em 2em 8em;
+    /* box-shadow: inset 0px 11px 8px -10px #333,
+    inset 0px -11px 8px -10px #333; */
+}
+
+.third-section .third-section-area .third-section-content h1{
+    font-size: 4rem;
+    color: #fff;
+    padding-right: 4em;
+    margin-bottom: 1.6em;
+}
+
+.third-section .third-section-area .third-section-content .third-section-content-boxes{
+}
+
+.third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box{
+    position: relative;
+}
+
+
+.third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+    text-align: center;
+    line-height: 40px;
+}
+
+.third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 2%;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: top 300ms ease-in-out;
+}
+
+.third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box:hover::after{
+    top: 18%;
+}
+
+.third-section .third-section-area .third-section-content .third-section-content-boxes .third-section-content-box .third-section-content-box-btn:hover{
+    letter-spacing: 1px;
+}
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+/******************************************************** quote section styling ********************************************************/
+
+.quote-section{
+    background-color: #E6E6FA;
+}
+
+.quote-section .quote-section-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 6em 0;
+}
+
+.quote-section .quote-section-container .quote-section-first-content{
+    width: 36%;
+}
+
+.quote-section .quote-section-container .quote-section-first-content h1{
+    font-size: 4.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+
+}
+
+.quote-section .quote-section-container .quote-section-first-content p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 2.6em;
+}
+
+.quote-section .quote-section-container .quote-section-first-content a{
+    font-size: 2.3rem;
+    color: #fff;
+    background-color: rgb(50, 50, 255);
+    padding: 0.6em 0.8em;
+    position: relative;
+}
+
+.quote-section .quote-section-container .quote-section-first-content a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms ease-in-out;
+}
+.quote-section .quote-section-container .quote-section-first-content a:hover::after{
+    transform: scaleY(1);
+}
+
+.quote-section .quote-section-container .quote-section-first-content a i{
+    font-size: 2rem;
+    padding-right: 0.2em;
+}
+
+.quote-section .quote-section-container .quote-section-second-content{
+    width: 60%;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form{
+    background-color: #fff;
+    padding: 2em 4em 3em 4em;
+    position: relative;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(50, 50, 255);
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form{
+
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0.2em 0.6em 0.2em 0;
+    margin-bottom: 1.2em;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label input{
+    display: none;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label i{
+    opacity: 0.4;
+    font-size: 2.2rem;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-transport-types-area label input:checked ~ i{
+    color: rgb(50, 50, 255);
+    opacity: 1;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1.2em;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input{
+    height: 2.4em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: border-color 200ms;
+    font-size: 2.2rem;
+    padding-left: 0.4em;
+    margin-top: 0.1em;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-area label input:focus{
+    border-color: rgb(50, 50, 255);
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-second-area{
+
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-second-area label{
+    width: 27%;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-second-area label input{
+
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area{
+
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area label{
+    width: 12%;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-third-area label input{
+
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-forth-area{
+
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-forth-area label{
+    width: 27%;
+    margin-bottom: 1.8em;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-forth-area label input{
+
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-btn-area{
+    position: relative;
+    width: 100%;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-btn-area input{
+    background-color: rgb(50, 50, 255);
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0.6em 0.8em;
+    position: relative;
+        cursor: pointer;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-btn-area input::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms ease-in-out;
+}
+
+.quote-section .quote-section-container .quote-section-second-content .quote-form form .quote-btn-area input:hover::after{
+    transform: scaleY(1);
+}
+
+/*****************************************************************************************************************************************/
+
+
+
+
+
+/*********************************************************** footer styling *************************************************************/
+
+.footer{
+    margin-top: 12em;
+    padding: 2em 0 3em 0;
+    background-color: #313131;
+    color: #fff;
+}
+
+.footer .footer-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-area .footer-01{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-area .footer-01 .footer-01-logo{
+    width: 30%;
+    margin-top: 7em;
+}
+
+.footer .footer-area .footer-01 .footer-01-logo img{
+    width: 100%;
+}
+
+.footer .footer-area .footer-01 .footer-01-content{
+    width: 64%;
+    align-self: center;
+}
+
+.footer .footer-area .footer-01 .footer-01-content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.footer .footer-area .footer-02{
+    width: 25%;
+    align-self: center;
+}
+
+.footer .footer-area .footer-02 .social-media-links{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.8em;
+    cursor: pointer;
+}
+
+.footer .footer-area .footer-02 .social-media-links a{
+    color: #fff;
+}
+
+.footer .footer-area .footer-02 .social-media-links a i{
+    font-size: 2rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 0.6em;
+    transition: transform 500ms ease-in-out,
+    border-color 250ms 250ms ease-in-out,
+    background-color 250ms 250ms ease-in-out;
+}
+
+.footer .footer-area .footer-02 .social-media-links .facebook-icon{
+    padding: 0.6em 0.78em;
+}
+
+.footer .footer-area .footer-02 .social-media-links .facebook-icon:hover{
+    transform: rotateY(360deg);
+    border-color: rgb(50, 50, 255);
+    background-color: rgba(50, 50, 255, 0.5);
+}
+
+.footer .footer-area .footer-02 .social-media-links .instagram-icon:hover{
+    transform: rotateY(360deg);
+    border-color: rgb(255, 50, 50);
+    background-color: rgba(255, 50, 50, 0.5);
+}
+
+.footer .footer-area .footer-02 .social-media-links .whatsapp-icon:hover{
+    transform: rotateY(360deg);
+    border-color: rgb(50, 255, 50);
+    background-color: rgba(50, 255, 50, 0.5);
+}
+
+.footer .footer-area .footer-02 .social-media-links .linkedin-icon:hover{
+    transform: rotateY(360deg);
+    border-color: rgb(14, 118, 168);
+    background-color: rgba(14, 119, 168, 0.5);
+}
+
+.footer .footer-area .footer-02 .social-media-links .twitter-icon:hover{
+    transform: rotateY(360deg);
+    border-color: rgb(0, 172, 238);
+    background-color: rgba(0, 171, 238, 0.5);
+}
+
+.footer .copyright-claim{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    /* margin-top: 1em; */
+}
+
+/*****************************************************************************************************************************************/
+
+
